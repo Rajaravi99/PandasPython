@@ -5,5 +5,5 @@ from datetime import datetime
 
 df = pd.read_csv('Input_alert_data/SentinelHighSeverityIncidentsDataperweek.csv')
 entities = (df[['Entities']])
-print(entities.head())
-# print(entities.to_string())
+print(entities)
+# lets work on extraction of entities from the entities column and create a new column with the extracted entities
