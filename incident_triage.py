@@ -28,11 +28,7 @@ def extract_entity_columns(value):
         "username": []
     }
 
-    # if pd.isna(value):
-    #     return result
-
     text = str(value).strip()
-    # print(text)
     if not text:
         return result
 
