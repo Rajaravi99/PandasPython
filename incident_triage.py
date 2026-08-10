@@ -24,7 +24,8 @@ def extract_entity_columns(value):
         "sha1": [],
         "sha256": [],
         "sha512": [],
-        "cve": []
+        "cve": [],
+        "username": []
     }
 
     # if pd.isna(value):
